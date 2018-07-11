@@ -8,6 +8,8 @@
 // See https://docusaurus.io/docs/site-config.html for all the possible
 // site configuration options.
 
+const RemarkablePlugins = require("./core/RemarkablePlugins");
+
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
@@ -78,7 +80,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
-    theme: 'default',
+    theme: 'atom-one-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags
@@ -90,7 +92,10 @@ const siteConfig = {
   /* Open Graph and Twitter card images */
   ogImage: 'img/logo.png',
   twitterImage: 'img/logo.png',
-
+  // markdownPlugins: [
+  //   RemarkablePlugins.SnackPlayer,
+  //   RemarkablePlugins.ReactNativeWebPlayer
+  // ],
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',

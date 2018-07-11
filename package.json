@@ -1,0 +1,26 @@
+{
+  "name": "troila-mobile-ui",
+  "version": "1.0.0",
+  "description": "trolia 移动端组件",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troila-mobile/troila-mobile-ui.git"
+  },
+  "keywords": [
+    "troila"
+  ],
+  "author": "troila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troila-mobile/troila-mobile-ui/issues"
+  },
+  "homepage": "https://github.com/troila-mobile/troila-mobile-ui#readme"
+}

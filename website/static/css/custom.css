@@ -14,3 +14,13 @@
 
 @media only screen and (min-width: 1500px) {
 }
+.image-view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.simulator{
+    width: 204px;
+}
