@@ -1,8 +1,6 @@
 {
   "docs": {
     "Troila Mobile Ui": ["main"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"],
     "Components": ["text"]
   },
   "docs-other": {

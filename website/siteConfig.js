@@ -24,7 +24,7 @@ const users = [
 
 const siteConfig = {
   title: 'Troila Mobile Ui' /* title for your website */,
-  tagline: 'A website for testing',
+  tagline: 'Troila Mobile for React Native',
   url: 'https://your-docusaurus-test-site.com' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -32,8 +32,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'troila-mobile.github.io',
+  organizationName: 'troila-mobile',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -98,7 +98,7 @@ const siteConfig = {
   // ],
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/troila-mobile/troila-mobile-ui',
 };
 
 module.exports = siteConfig;

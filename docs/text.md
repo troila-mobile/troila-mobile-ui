@@ -1,7 +1,7 @@
 ---
 id: text
 title: Text
-sidebar_label: Text2
+sidebar_label: Text
 ---
 
 基于react-native的`Text`的封装
@@ -10,7 +10,28 @@ sidebar_label: Text2
 ## 规则
 - 统一添加了`allowFontScaling`用来处理系统字体大小
 
-## 示例
+
+## Example
+
+<table>
+  <tr>
+    <th style="width: 50%;">iOS</th>
+    <th style="width: 50%;">Android</th>
+  </tr>
+  <tr>
+    <td style="width: 50%;">
+      <center><img src="/docs/assets/text.ios.png"></img></center>
+    </td>
+    <td style="width: 50%;">
+      <center><img src="/docs/assets/text.android.png"></img></center>
+    </td>
+  </tr>
+</table>
+
+
+
+
+## Code
 
 ```jsx
 import React, { Component } from 'react';
@@ -43,10 +64,7 @@ const styles = StyleSheet.create({
 
 ```
 
-<div class="image-view">
-    <img class="simulator" src="/docs/assets/text.ios.png" />
-    <img class="simulator" src="/docs/assets/text.android.png" />
-</div>
+
 
 ## Props
 
