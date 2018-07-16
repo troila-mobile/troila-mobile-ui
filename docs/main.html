@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Troila Mobile Ui of React-Native · Troila Mobile Ui</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="`antd-mobile-rn` 是 [Troila Mobile Ui](https://docusaurus.io) 的移动规范的 React Native 实现，服务于天津卓朗科技移动端业务。"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Troila Mobile Ui of React-Native · Troila Mobile Ui"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/index.html"/><meta property="og:description" content="`antd-mobile-rn` 是 [Troila Mobile Ui](https://docusaurus.io) 的移动规范的 React Native 实现，服务于天津卓朗科技移动端业务。"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/logo.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://your-docusaurus-test-site.com/blog/atom.xml" title="Troila Mobile Ui Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://your-docusaurus-test-site.com/blog/feed.xml" title="Troila Mobile Ui Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.png" alt="Troila Mobile Ui"/><h2 class="headerTitleWithLogo">Troila Mobile Ui</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/main.html" target="_self">Docs</a></li><li class=""><a href="/docs/doc4.html" target="_self">API</a></li><li class=""><a href="/en/help.html" target="_self">Help</a></li><li class=""><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Troila Mobile Ui</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Troila Mobile Ui</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/main.html">Getting Started</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul><li class="navListItem"><a class="navItem" href="/docs/text.html">Text</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Troila Mobile Ui of React-Native</h1></header><article><div><span><p><code>antd-mobile-rn</code> 是 <a href="https://docusaurus.io">Troila Mobile Ui</a> 的移动规范的 React Native 实现，服务于天津卓朗科技移动端业务。</p>
+<h2><a class="anchor" aria-hidden="true" id="特性和优势"></a><a href="#特性和优势" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>特性和优势</h2>
+<ul>
+<li>UI 样式高度可配置，拓展性更强，轻松适应各类产品风格</li>
+<li>基于 React Native 的 iOS / Android / <code>Web todo</code> 多平台支持，组件丰富、能全面覆盖各类场景</li>
+<li>提供 &quot;组件按需加载&quot; 等优化方案，一体式开发</li>
+<li>使用 TypeScript 开发，提供类型定义文件，支持类型及属性智能提示，方便业务开发</li>
+<li>全面兼容 react</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="适用场景"></a><a href="#适用场景" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>适用场景</h2>
+<ul>
+<li>适合于中大型产品应用</li>
+<li>适合于基于 react / react-native 的多终端应用</li>
+<li>适合不同 UI 风格的高度定制需求的应用</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="快速上手"></a><a href="#快速上手" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>快速上手</h2>
+<blockquote>
+<p>在开始之前，推荐先学习 <a href="http://facebook.github.io/react/">React</a> 和 <a href="http://babeljs.io/docs/learn-es2015/">ES2015</a>。我们使用了 <code>babel</code>，试试用 <a href="http://babeljs.io/blog/2015/06/07/react-on-es6-plus">ES2015</a> 的写法来提升编码的愉悦感。</p>
+<p>确认 <a href="https://nodejs.org/en/">Node.js</a> 已经升级到 v4.x 或以上。</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="1-创建一个项目"></a><a href="#1-创建一个项目" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 创建一个项目</h3>
+<p>可以是已有项目，或者是使用 create-react-native-app 新创建的空项目，你也可以从<a href="https://facebook.github.io/react-native/docs/getting-started">这里</a>拷贝并修改</p>
+<blockquote>
+<p>参考更多<a href="https://facebook.github.io/react-native/docs/getting-started">官方示例集</a>
+或者你可以利用 React 生态圈中的 <a href="https://github.com/enaqx/awesome-react#boilerplates">各种脚手架</a></p>
+</blockquote>
+<p>完整步骤请查看此处文档： <a href="https://github.com/troila-mobile/troila-mobile-ui/blob/master/docs/create-react-native-app.md">antd-mobile-sample/create-react-native-app</a></p>
+<h3><a class="anchor" aria-hidden="true" id="2-安装"></a><a href="#2-安装" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 安装</h3>
+<pre><code class="hljs css languages- bash">$ npm install troila-mobile-ui --save
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="3-使用"></a><a href="#3-使用" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. 使用</h3>
+<p>组件使用实例：</p>
+<pre><code class="hljs css languages- jsx"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { AppRegistry } <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native'</span>;
+<span class="hljs-keyword">import</span> Text <span class="hljs-keyword">from</span> <span class="hljs-string">'troila-mobile-ui/text'</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloWorldApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+  render() {
+    <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Start<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>;
+  }
+}
+
+AppRegistry.registerComponent(<span class="hljs-string">'HelloWorldApp'</span>, () =&gt; HelloWorldApp);
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="按需加载"></a><a href="#按需加载" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>按需加载</h5>
+<p>下面两种方式都可以<strong>只加载</strong>用到的组件，选择其中一种方式即可。</p>
+<ul>
+<li><p>使用 <a href="https://github.com/ant-design/babel-plugin-import">babel-plugin-import</a>（推荐）。</p>
+<pre><code class="hljs css languages- js"><span class="hljs-comment">// .babelrc or babel-loader option</span>
+{
+  <span class="hljs-string">"plugins"</span>: [
+    [<span class="hljs-string">"import"</span>, { <span class="hljs-attr">libraryName</span>: <span class="hljs-string">"troila-mobile-ui"</span> }]
+  ]
+}
+</code></pre>
+<p>然后改变从 antd-mobile-rn 引入模块方式即可。</p>
+<pre><code class="hljs css languages- jsx"><span class="hljs-keyword">import</span> { Text } <span class="hljs-keyword">from</span> <span class="hljs-string">'troila-mobile-ui'</span>;
+</code></pre></li>
+</ul>
+<ul>
+<li><p>手动引入</p>
+<pre><code class="hljs css languages- jsx"><span class="hljs-keyword">import</span> Text <span class="hljs-keyword">from</span> <span class="hljs-string">'troila-mobile-ui/text'</span>;
+</code></pre></li>
+</ul>
+<h5><a class="anchor" aria-hidden="true" id="更多增强-非必须"></a><a href="#更多增强-非必须" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>更多增强 (非必须):</h5>
+<blockquote>
+<p><a href="https://github.com/ant-design/antd-mobile-samples/tree/master/rn-custom-ui#antd-mobile-with-rn-custom-ui">自定义 RN 主题和单个组件样式</a>
+比如 <a href="https://github.com/ant-design/ant-design-mobile/issues/1853">#1853</a></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="版本"></a><a href="#版本" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>版本</h2>
+<ul>
+<li>稳定版：<a href="http://npmjs.com/package/troila-mobile-ui"><img src="http://img.shields.io/npm/v/troila-mobile-ui.svg?style=flat-square" alt="npm package"></a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="链接"></a><a href="#链接" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>链接</h2>
+<ul>
+<li><a href="https://facebook.github.io/react-native/">React Native文档</a></li>
+<li><a href="http://github.com/react-component">React 模块</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="如何贡献"></a><a href="#如何贡献" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>如何贡献</h2>
+<p>有任何建议或意见您可以 <a href="https://github.com/troila-mobile/troila-mobile-ui/pulls">Pull Request</a>，给我们 <a href="https://github.com/troila-mobile/troila-mobile-ui/issues/new">报告 Bug</a>。</p>
+<blockquote>
+<p>强烈推荐阅读 <a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way">《提问的智慧》</a>、<a href="https://github.com/seajs/seajs/issues/545">《如何向开源社区提问题》</a> 和 <a href="http://www.chiark.greenend.org.uk/%7Esgtatham/bugs-cn.html">《如何有效地报告 Bug》</a>，更好的问题更容易获得帮助。</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="社区互助"></a><a href="#社区互助" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>社区互助</h2>
+<p>如果您在使用的过程中碰到问题，可以通过下面几个途径寻求帮助，同时我们也鼓励资深用户通过下面的途径给新人提供帮助。</p>
+<p>通过 Stack Overflow 或者 Segment Fault 提问时，建议加上 <code>troila-mobile-ui</code> 标签。</p>
+<ol>
+<li><a href="http://stackoverflow.com/">Stack Overflow</a>（推荐）</li>
+<li><a href="https://segmentfault.com/">Segment Fault</a></li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next button" href="/docs/text.html">Text →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#特性和优势">特性和优势</a></li><li><a href="#适用场景">适用场景</a></li><li><a href="#快速上手">快速上手</a><ul class="toc-headings"><li><a href="#1-创建一个项目">1. 创建一个项目</a></li><li><a href="#2-安装">2. 安装</a></li><li><a href="#3-使用">3. 使用</a></li></ul></li><li><a href="#版本">版本</a></li><li><a href="#链接">链接</a></li><li><a href="#如何贡献">如何贡献</a></li><li><a href="#社区互助">社区互助</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="Troila Mobile Ui" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" href="https://github.com/troila-mobile/troila-mobile-ui" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 Your Name or Your Company Name</section></footer></div></body></html>
