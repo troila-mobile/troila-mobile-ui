@@ -2,13 +2,14 @@
   "name": "troila-mobile-ui",
   "version": "1.0.0",
   "description": "trolia 移动端组件",
-  "main": "index.js",
+  "main": "components/index.js",
   "directories": {
     "doc": "docs",
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node scripts/sync"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/troila-mobile/troila-mobile-ui/issues"
   },
-  "homepage": "https://github.com/troila-mobile/troila-mobile-ui#readme"
+  "homepage": "https://github.com/troila-mobile/troila-mobile-ui#readme",
+  "dependencies": {
+    "react": "16.4.1",
+    "prop-types": "^15.6.2",
+    "react-native": "0.56.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.4.0",
+    "react-test-renderer": "16.4.1",
+    "react-navigation": "^2.6.2",
+    "consola": "^1.4.1"
+  }
 }

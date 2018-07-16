@@ -15,7 +15,7 @@ export default class TroilaMobileText extends Component {
         return (
             <Text
                 allowFontScaling={false}
-                {...props} 
+                {...this.props} 
             >
                 {children}
             </Text>
