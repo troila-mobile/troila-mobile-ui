@@ -4,3 +4,15 @@
 /LICENSE
 /node_modules
 /website
+/scripts
+/src
+/ios
+/android
+LICENSE
+README.md
+App.js
+app.json
+.watchmanconfig
+.flowconfig
+.babelrc
+.buckconfig

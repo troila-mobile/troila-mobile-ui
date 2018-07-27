@@ -4,7 +4,7 @@ title: Troila Mobile Ui of React-Native
 sidebar_label: Getting Started
 ---
 
-`antd-mobile-rn` 是 [Troila Mobile Ui](https://docusaurus.io) 的移动规范的 React Native 实现，服务于天津卓朗科技移动端业务。
+`troila-mobile-ui` 是 [Troila Mobile Ui](https://docusaurus.io) 的移动规范的 React Native 实现，服务于天津卓朗科技移动端业务。
 
 ## 特性和优势
 

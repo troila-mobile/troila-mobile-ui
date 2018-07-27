@@ -1,7 +1,14 @@
 {
   "docs": {
     "Troila Mobile Ui": ["main"],
-    "Components": ["text"]
+    "Components": ["text","ListView"],
+    "卓朗云桌面-内部组件": [
+      "zhuolangyun/BackgroundButton",
+      "zhuolangyun/ExtendsBackButton",
+      "zhuolangyun/HeaderTitleButton",
+      "zhuolangyun/HeaderImageButton",
+      "zhuolangyun/zhuyishixiang"
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
