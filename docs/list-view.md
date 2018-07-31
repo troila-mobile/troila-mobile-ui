@@ -5,6 +5,7 @@ sidebar_label: ListView
 ---
 
 基于react-native的`FlatList`的封装
+> 注：由于fetch未封装完毕，暂时不要声明自`troila-mobile-ui`，优先声明自本地的`components/theme`中
 
 
 ## 规则
@@ -85,5 +86,6 @@ class ListViewInANest extends Component {
 | mockData | mock数据 | Array   |  null |
 | renderItem | 渲染cell | Function   |  null |
 | keyExtractor | 指定key | Function   |  null |
+| closeRefreshing | 关闭下拉刷新 | Boolean   |  `false` |
 
 > 更多 react-native `FlatList` 属性请参考 react-native FlatList (http://facebook.github.io/react-native/docs/flatlist.html)
