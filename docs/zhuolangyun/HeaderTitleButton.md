@@ -72,7 +72,8 @@ const Navigator = createStackNavigator(
 | onPress | 点击事件 | Function   |  `()=>{}` |
 | icon | 图标资源 | Source |  `>` |
 | title | 标题 | String   |  `''` |
-| buttonStyle | 按钮样式 | Style   |  `省略` |
+| buttonStyle | 外层容器样式 | Style   |  `省略` |
+| style | 按钮样式 | Style   |  `省略` |
 | titleStyle | 标题样式 | Style   |  `省略` |
 | iconStyle | 图标样式 | Style   |  `省略` |
 | iconPosition | 图标位置 | `left`,`right`   |  `right` |

@@ -3,6 +3,7 @@
     "Troila Mobile Ui": ["main"],
     "Components": ["text","ListView","list","text-input"],
     "卓朗云桌面-内部组件": [
+      "zhuolangyun/request",
       "zhuolangyun/BackgroundButton",
       "zhuolangyun/ExtendsBackButton",
       "zhuolangyun/HeaderTitleButton",
