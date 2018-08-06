@@ -6,6 +6,7 @@ sidebar_label: request (请求类)
 
 请求类
 基于react-native的`fetch`的封装
+> `log`参数 基于`troila-mobie-tools@1.1.2`版本，如果低于此版本请升级
 >基于`troila-mobie-tools@1.1.0`版本，如果低于此版本请升级
 
 ## 规则
@@ -34,7 +35,8 @@ export const API_URL = {
 		needLogin: false,
 		developer: boy1,
 		mock: false,
-		mockFetchUrl: `${MOCK_ROOT_URL}Adv/lists`,
+        mockFetchUrl: `${MOCK_ROOT_URL}Adv/lists`,
+        log: true
 	},
 }
 ```
@@ -57,6 +59,7 @@ export const API_URL = {
 | developer | 联调接口的开发者 | `boy1`   
 | mock | 是否开启mock模式 | `false`   
 | mockFetchUrl | mock模式请求的地址 | `${MOCK_ROOT_URL}Adv/lists`   
+| log | 是否开启请求日志输出 | `false`   
 
 ## 再使用request发起请求
 
