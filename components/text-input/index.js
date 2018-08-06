@@ -20,7 +20,7 @@ export default class ThemeTextInput extends Component {
         const {
             showClearButton,
             style,
-            textInputStyle,
+            inputStyle,
             onChangeText,
             ...props
         } = this.props
@@ -30,7 +30,7 @@ export default class ThemeTextInput extends Component {
         return (
             <View style={[{ flexDirection: 'row', }, style]}>
                 <TextInput
-                    style={[{ padding: 0, textAlignVertical: 'top' }, textInputStyle]}
+                    style={[{ padding: 0, textAlignVertical: 'top' }, inputStyle]}
                     underlineColorAndroid="transparent"
                     clearButtonMode={showClearButton ? 'while-editing' : 'never'}
                     onChangeText={(e) => {

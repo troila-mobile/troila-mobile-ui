@@ -1,7 +1,7 @@
 {
   "docs": {
     "Troila Mobile Ui": ["main"],
-    "Components": ["text","ListView","list","text-input"],
+    "Components": ["text","ListView","list","text-input","input-item","step","spring-animated-view"],
     "卓朗云桌面-内部组件": [
       "zhuolangyun/request",
       "zhuolangyun/BackgroundButton",

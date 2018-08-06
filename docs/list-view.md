@@ -87,5 +87,6 @@ class ListViewInANest extends Component {
 | renderItem | 渲染cell | Function   |  null |
 | keyExtractor | 指定key | Function   |  null |
 | closeRefreshing | 关闭下拉刷新 | Boolean   |  `false` |
+| other props | `FlatList props` |    |   |
 
 > 更多 react-native `FlatList` 属性请参考 react-native FlatList (http://facebook.github.io/react-native/docs/flatlist.html)

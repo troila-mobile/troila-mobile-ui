@@ -14,7 +14,7 @@ export default class Example extends Component {
             <View style={styles.container}>
                 <View style={{backgroundColor:'#fff',marginTop: 15,padding:15}}>
                     <TextInput
-                        textInputStyle={{
+                        inputStyle={{
                             fontSize: 16,
                             color: '#333',
                             height:20,
@@ -30,7 +30,7 @@ export default class Example extends Component {
                         backgroundColor: '#fff',
                         marginLeft: 15,
                     }}
-                    textInputStyle={{
+                    inputStyle={{
                         fontSize: 16,
                         color: '#333',
                         flex: 1,

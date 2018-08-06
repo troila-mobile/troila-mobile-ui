@@ -24,7 +24,8 @@ const itemPropTypes = {
     numberOfLines: PropTypes.number,
     extra: PropTypes.oneOfType([
         PropTypes.string,
-        PropTypes.element
+        PropTypes.element,
+        undefined,
     ]),
     extraIcon: PropTypes.oneOf(['horizontal', 'close']),
     extraTextStyle: ViewPropTypes.style,

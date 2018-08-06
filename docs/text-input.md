@@ -51,7 +51,7 @@ export default class Example extends Component {
             <View style={styles.container}>
                 <View style={{backgroundColor:'#fff',marginTop: 15,padding:15}}>
                     <TextInput
-                        textInputStyle={{
+                        inputStyle={{
                             fontSize: 16,
                             color: '#333',
                             height:20,
@@ -67,7 +67,7 @@ export default class Example extends Component {
                         backgroundColor: '#fff',
                         marginLeft: 15,
                     }}
-                    textInputStyle={{
+                    inputStyle={{
                         fontSize: 16,
                         color: '#333',
                         flex: 1,
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
 ----|-----|------|------
 | showClearButton | 是否显示取消内容按钮 | Boolean   |  `false` |
 | style | 外部容器样式 | Style   |  `null` |
-| textInputStyle | textInput样式 | Style   |  `null` |
+| inputStyle | textInput样式 | Style   |  `null` |
 | onChangeText | 键盘输入内容时的时间 | Function   |  `()=>{}` |
 
 ## Methods
