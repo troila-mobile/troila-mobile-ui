@@ -76,9 +76,15 @@ class ListViewInANest extends Component {
           numColumns={2}
           keyExtractor={(e) => `${e.funcId}`}
           renderItem={this.renderItem}
+          ref={(e)=>this.ListView=e}
         />
       )
     }
+  }
+  testFunc = ()=>{
+    this.ListView.setFetchParams({
+        id: 1
+    })
   }
 }
 
@@ -104,5 +110,30 @@ class ListViewInANest extends Component {
 | keyExtractor | 指定key | Function   |  null |
 | closeRefreshing | 关闭下拉刷新 | Boolean   |  `false` |
 | other props | `FlatList props` |    |   |
+
+
+
+## Methods
+
+### `setFetchParams()`
+
+```javascript
+this.ListView.setFetchParams({
+  id: 1
+})
+```
+
+设置参数重新请求
+
+---
+
+### `manuallyRefresh()`
+
+```javascript
+this.ListView.manuallyRefresh()
+```
+
+主动刷新
+
 
 > 更多 react-native `FlatList` 属性请参考 react-native FlatList (http://facebook.github.io/react-native/docs/flatlist.html)
